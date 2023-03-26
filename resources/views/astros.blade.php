@@ -27,8 +27,11 @@
         <div class="row">
             <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
                 <div class="contenido">
-                    <h2>Astros en plataforma</h2>
+                    <h2 class="text-center">Astros en plataforma</h2>
                 </div>
+            </div>
+            <div>
+                <a href="{{ Route('registrar_Astro') }}" class="btn btn-primary">Nuevo Astro</a>
             </div>
             <table id="astros" class="table table-striped">
                 <thead>
